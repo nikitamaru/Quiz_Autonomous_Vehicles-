@@ -5,19 +5,19 @@ import { TbDeviceGamepad2 } from 'react-icons/tb'
 const gameModes = [
 	{
 		icon: <TbDeviceGamepad2 className='text-3xl' />,
-		title: 'Classic',
-		description: 'Complete questions without fail to win! You have wildcards that can help you'
+		title: 'Cooperative',
+		description: ' Players collaborate to optimize data models, sharing insights and coordinating adjustments to safely navigate through scenarios like heavy weather and unexpected obstacles.'
 	},
 	{
 		icon: <BiTimeFive className='text-3xl' />,
-		title: 'Time',
-		description: 'Complete questions within the time limit to win! You can use wildcards'
+		title: 'Competitive',
+		description: 'Players compete against each other to achieve the highest scores or complete objectives in the fastest time by making strategic data model adjustments in response to dynamic driving conditions.'
 	},
-	{
-		icon: <ImInfinite className='text-3xl' />,
-		title: 'Infinite',
-		description: 'Break your record by completing as many questions as you can! You can use wildcards'
-	}
+	// {
+	// 	icon: <ImInfinite className='text-3xl' />,
+	// 	title: 'Infinite',
+	// 	description: 'Break your record by completing as many questions as you can! You can use wildcards'
+	// }
 ]
 
 export default function GameModes () {
