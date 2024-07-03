@@ -1,42 +1,32 @@
 [
 	{
 		"id": "aa",
-		"name": "History",
-		"color": "#e6c642"
+		"name": "Heavy Weather Changes",
+		"color": "#E6C642"
 	},
 	{
 		"id": "ab",
-		"name": "Entertainment",
-		"color": "#f94e4e"
+		"name": "Unexpected Road Obstacles",
+		"color": "#F94E4E"
 	},
 	{
 		"id": "ac",
-		"name": "Technology",
-		"color": "#685af5"
+		"name": "Heavy Traffic",
+		"color": "#685AF5"
 	},
 	{
 		"id": "ad",
-		"name": "Geography",
-		"color": "#3ce956"
+		"name": "Route Optimization",
+		"color": "#3CE956"
 	},
 	{
 		"id": "ae",
-		"name": "Art",
-		"color": "#307de7"
+		"name": "Safety & regulations",
+		"color": "#307DE7"
 	},
 	{
 		"id": "af",
-		"name": "Space",
+		"name": "Others",
 		"color": "#a656fd"
-	},
-	{
-		"id": "ah",
-		"name": "Science",
-		"color": "#e857ed"
-	},
-	{
-		"id": "ag",
-		"name": "General culture",
-		"color": "#56cfef"
 	}
 ]
