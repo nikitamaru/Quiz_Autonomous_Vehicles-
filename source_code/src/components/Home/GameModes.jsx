@@ -1,6 +1,8 @@
+import React from 'react';
 import { ImInfinite } from 'react-icons/im'
 import { BiTimeFive } from 'react-icons/bi'
 import { TbDeviceGamepad2 } from 'react-icons/tb'
+import { useState } from 'react';
 
 const gameModes = [
 	{
@@ -20,14 +22,23 @@ const gameModes = [
 	// }
 ]
 
-export default function GameModes () {
+export default function GameModes ({ setIsButtonEnabled }) {
+	const [selectedMode, setSelectedMode] = useState(null);
+	const handleListItemClick = (modeTitle) => {
+	 console.log(`${modeTitle} clicked!`);
+	 setSelectedMode(modeTitle)
+	 setIsButtonEnabled(true); // Enable the button on the home page
+ };
 	return (
 		<section className='lg:max-w-6xl mx-auto lg:col-start-1 lg:col-end-2 px-8 py-6 flex flex-col justify-center bg-[url("/bg-gamemodes.svg")] text-slate-900 w-full'>
 			<h2 className='text-2xl mb-4 font-medium '>Game modes </h2>
 			<nav>
 				<ul className='flex flex-col sm:flex-row justify-center gap-5'>
 					{gameModes.map((mode, index) => (
-						<li key={index + mode.title} className='bg-neutral-300 max-w-sm md:max-w-none bg-opacity-30 backdrop-blur-[2px] rounded p-5 hover:scale-[1.03] transition-all hover:backdrop-blur-0 hover:bg-opacity-100 hover:bg-white shadow-sm mx-auto'>
+						<li key={index + mode.title} className={`bg-neutral-300 max-w-sm md:max-w-none bg-opacity-30 backdrop-blur-[2px] rounded p-5 hover:scale-[1.03] transition-all hover:backdrop-blur-0 hover:bg-opacity-100 hover:bg-white shadow-sm mx-auto cursor-pointer ${
+						                          selectedMode === mode.title ? 'bg-white border-2 border-blue-500' : ''
+						                        }`}
+						onClick={() => handleListItemClick(mode.title)}>
 							{mode.icon}
 							<h3 className='text-xl font-medium my-1'>{mode.title}</h3>
 							<p className='text-sm'>{mode.description}</p>
@@ -38,3 +49,8 @@ export default function GameModes () {
 		</section>
 	)
 }
+
+
+// className={`bg-neutral-300 max-w-sm md:max-w-none bg-opacity-30 backdrop-blur-[2px] rounded p-5 hover:scale-[1.03] transition-all hover:backdrop-blur-0 hover:bg-opacity-100 hover:bg-white shadow-sm mx-auto cursor-pointer ${
+//                           selectedMode === mode ? 'bg-white border-2 border-blue-500' : ''
+//                         }`}

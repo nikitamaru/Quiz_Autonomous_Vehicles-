@@ -17,8 +17,9 @@ body {
 }
 
 .mainHome {
-	background: rgb(28, 35, 58) url('/bg-home.svg');
-	background-size: 70%;
+	background: rgb(28, 35, 58) url('/bg-home5.jpg');
+	background-size: 100%;
+	/* background-size: cover; */
 }
 .disabled {
 	filter: grayscale(1);
