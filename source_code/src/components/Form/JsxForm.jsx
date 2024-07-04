@@ -16,9 +16,23 @@ export default function JsxForm ({ handleInputs, nowQueries }) {
 		{ name: 'Lives', icon: <FaHeart color='white' className='text-2xl' />, amount: 1 }
 	]
 
+	handleInputs = (e) => {
+		console.log(e, e.target.name, e.target.value)
+		const userName  = e.target.value
+		console.log(userName)
+		localStorage.setItem('userName', JSON.stringify(userName));
+	}
 	return (
 		<>
 			<div className='flex gap-2 sm:gap-5 flex-col'>
+						{/* Username Input */}
+						<input
+				type="text"
+				placeholder="Enter your username"
+				onChange={(e) => handleInputs(e)}
+				name="username"
+				className="bg-gray-200 px-3 py-2 rounded mb-3"
+				/>
 				<fieldset className='p-1'>
 					<legend className='text-lg font-semibold mb-2'>Wilcards</legend>
 					<ul className='flex gap-3 justify-between font-medium'>
