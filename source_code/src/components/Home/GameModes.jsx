@@ -26,6 +26,7 @@ export default function GameModes ({ setIsButtonEnabled }) {
 	const [selectedMode, setSelectedMode] = useState(null);
 	const handleListItemClick = (modeTitle) => {
 	 console.log(`${modeTitle} clicked!`);
+	 localStorage.setItem('selectedMode', JSON.stringify(modeTitle));
 	 setSelectedMode(modeTitle)
 	 setIsButtonEnabled(true); // Enable the button on the home page
  };

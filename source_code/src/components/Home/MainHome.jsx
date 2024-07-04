@@ -52,16 +52,3 @@ export default function MainHome ({ isButtonEnabled }) {
 }
 
 
-// {isButtonEnabled ?
-//                 (<button onClick={handlePlay} id='play' href="play" className={`btn-primary uppercase px-6 py-4 text-lg max-w-md w-full mx-auto mt-10
-//            'bg-blue-500 hover:bg-blue-700 text-white'`}>
-//                     Play
-//                 </button>
-//                 ) : (
-//             <button
-//                 className='btn-primary uppercase px-6 py-4 text-lg max-w-md w-full mx-auto mt-10 bg-gray-400 text-gray-700 opacity-50 cursor-not-allowed'
-//                 disabled
-//             >
-//                 Play
-//             </button>
-//              )}
