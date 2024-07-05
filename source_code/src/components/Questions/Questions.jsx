@@ -7,10 +7,12 @@ import QuestionSlider from './QuestionSlider'
 import categories from '@/assets/categories.json'
 import playSound from '@/helpers/playSound'
 import { useBoundStore } from '@/store/useBoundStore'
+import score_card from '@/assets/score.json'
 
 export default function Questions () {
 	const { questions, loading, loadingInfinity, currentQuestion, setCurrentQuestion, setUserAnswer, win, score, setWin, setScore, wildCards, useLivesCard, queries, getQuestions } = useBoundStore(state => state)
 	const [time, setTime] = useState(Number(queries.time))
+	const [score, setScore] = useState(score_card.data);
 
 	useEffect(() => {
 		const color = categories.find(cat => cat.name.toLowerCase() === questions[currentQuestion - 1]?.topic.toLowerCase())?.color
@@ -33,7 +35,12 @@ export default function Questions () {
 	}, [currentQuestion, score])
 
 	useEffect(() => {
-		if (win !== undefined || !queries.timemode || loading || loadingInfinity) return
+
+
+		if (win !== undefined || !queries.timemode || loading || loadingInfinity) {
+			console.log(score_card);
+			score_card = {}
+		}
 		const timeInterval = setInterval(() => setTime(time => time > 0 ? time - 1 : time), 1000)
 		return () => clearInterval(timeInterval)
 	}, [queries.timemode, win, loading, loadingInfinity])
@@ -111,8 +118,8 @@ export default function Questions () {
 				<QuestionsNavbar changueCurrent={changueCurrent} />
 				<QuestionSlider changueCurrent={changueCurrent} setTime={setTime} getAnotherQuestions={getAnotherQuestions} />
 			</div>
-
 			{win !== undefined && <GameOver />}
+
 			<Wildcards />
 
 			{

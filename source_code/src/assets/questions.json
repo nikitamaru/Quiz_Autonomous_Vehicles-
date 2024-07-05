@@ -1,5 +1,5 @@
 {
-	"History": [
+	"Heavy Weather Changes": [
 		{
 			"question": "In what year did the Berlin Wall fall?",
 			"answers": ["1989", "1991", "1987", "1993"],
@@ -106,7 +106,7 @@
 			"correctAnswer": "Loki"
 		}
 	],
-	"Entertainment": [
+	"Unexpected Road Obstacles": [
 		{
 			"question": "What is the name of the clown in the movie \"It\"?",
 			"answers": ["Pennywise", "Bozo", "Krusty", "Joker"],
@@ -208,7 +208,7 @@
 			"correctAnswer": "Rem"
 		}
 	],
-	"Geography": [
+	"Heavy Traffic": [
 		{
 			"question": "What is the capital city of Australia?",
 			"answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
@@ -310,7 +310,7 @@
 			"correctAnswer": "Nepal"
 		}
 	],
-	"Science": [
+	"Route Optimization": [
 		{
 			"question": "What is the chemical symbol for gold?",
 			"answers": ["Au", "Ag", "Cu", "Fe"],
@@ -437,7 +437,7 @@
 			"correctAnswer": "Force"
 		}
 	],
-	"Technology": [
+	"Safety & regulations": [
 		{
 			"question": "Which company developed the programming language Java?",
 			"answers": ["Sun Microsystems", "Microsoft", "Apple", "IBM"],
@@ -534,7 +534,7 @@
 			"correctAnswer": "Link"
 		}
 	],
-	"Art": [
+	"Others": [
 		{
 			"question": "Who painted the famous artwork \"The Starry Night\"?",
 			"answers": [
@@ -664,190 +664,6 @@
 			"question": "In music, how many lines does a staff have?",
 			"answers": ["Five", "Four", "Six", "Three"],
 			"correctAnswer": "Five"
-		}
-	],
-	"Space": [
-		{
-			"question": "What is the largest planet in our solar system?",
-			"answers": ["Jupiter", "Saturn", "Uranus", "Neptune"],
-			"correctAnswer": "Jupiter"
-		},
-		{
-			"question": "What is the name of the brightest star in the night sky?",
-			"answers": [
-				"Sirius",
-				"Proxima Centauri",
-				"Betelgeuse",
-				"Aldebaran"
-			],
-			"correctAnswer": "Sirius"
-		},
-		{
-			"question": "What is the name of the only natural satellite of Earth?",
-			"answers": ["Moon", "Mars", "Venus", "Jupiter"],
-			"correctAnswer": "Moon"
-		},
-		{
-			"question": "What is the name of the first artificial satellite launched into space?",
-			"answers": ["Sputnik 1", "Explorer 1", "Vanguard 1", "Vostok 1"],
-			"correctAnswer": "Sputnik 1"
-		},
-		{
-			"question": "What is the speed of light approximately?",
-			"answers": [
-				"300,000 km/s",
-				"200,000 km/s",
-				"100,000 km/s",
-				"400,000 km/s"
-			],
-			"correctAnswer": "300,000 km/s"
-		},
-		{
-			"question": "What is the name of the largest known asteroid in our solar system?",
-			"answers": ["Ceres", "Vesta", "Pallas", "Hygiea"],
-			"correctAnswer": "Ceres"
-		},
-		{
-			"question": "What is the name of the spacecraft that landed on Mars in 2021 as part of the Mars 2020 mission?",
-			"answers": ["Perseverance", "Curiosity", "Opportunity", "Spirit"],
-			"correctAnswer": "Perseverance"
-		},
-		{
-			"question": "How long does it take for sunlight to reach the earth?",
-			"answers": ["8 minutes", "3.5 hours", "26 seconds", "10 seconds"],
-			"correctAnswer": "8 minutes"
-		},
-		{
-			"question": "About how many stars are there in the solar system?",
-			"answers": ["1", "100", "100,000", "Too many to count"],
-			"correctAnswer": "1"
-		},
-		{
-			"question": "What is the most common matter in the universe?",
-			"answers": ["Hydrogen", "Dark matter", "Helium", "Oxygen"],
-			"correctAnswer": "Hydrogen"
-		},
-		{
-			"question": "About what temperature is it in space?",
-			"answers": ["-270°C", "-120°C", "0°C", "38°C"],
-			"correctAnswer": "-270°C"
-		},
-		{
-			"question": "Mainly which atoms do stars use in their fusion process?",
-			"answers": ["Hydrogen", "Helium", "Oxygen", "Carbon"],
-			"correctAnswer": "Hydrogen"
-		},
-		{
-			"question": "What is inside a black hole in the movie \"Interstellar\"?",
-			"answers": [
-				"A fifth dimension",
-				"A planet",
-				"A spaceship",
-				"Nothing"
-			],
-			"correctAnswer": "A fifth dimension"
-		},
-		{
-			"question": "What is the geometric figure that describes the orbit of the planets?",
-			"answers": ["Ellipse", "Circle", "Circumference", "Square"],
-			"correctAnswer": "Ellipse"
-		},
-		{
-			"question": "How many moons does Mars have?",
-			"answers": ["1", "2", "4", "Does not have"],
-			"correctAnswer": "2"
-		},
-		{
-			"question": "What is the name of the first man to walk on the moon?",
-			"answers": [
-				"Neil Armstrong",
-				"Buzz Aldrin",
-				"Alan Shepard",
-				"Yuri Gagarin"
-			],
-			"correctAnswer": "Neil Armstrong"
-		}
-	],
-	"General culture": [
-		{
-			"question": "What part of the ship does the nautical term \"starboard\" refer to?",
-			"answers": ["Right", "Left", "Front", "Back"],
-			"correctAnswer": "Right"
-		},
-		{
-			"question": "Which river runs through London?",
-			"answers": ["Thames", "Seine", "Danube", "Nile"],
-			"correctAnswer": "Thames"
-		},
-		{
-			"question": "Who turns into Hulk?",
-			"answers": [
-				"Bruce Banner",
-				"Tony Stark",
-				"Peter Parker",
-				"Steve Rogers"
-			],
-			"correctAnswer": "Bruce Banner"
-		},
-		{
-			"question": "How many players does a soccer team have on the field?",
-			"answers": ["11", "10", "9", "12"],
-			"correctAnswer": "11"
-		},
-		{
-			"question": "Which of these is a percussion instrument?",
-			"answers": ["Drum", "Violin", "Flute", "Trumpet"],
-			"correctAnswer": "Drum"
-		},
-		{
-			"question": "What color is the \"G\" in the Google logo?",
-			"answers": ["Blue", "Red", "Yellow", "Green"],
-			"correctAnswer": "Blue"
-		},
-		{
-			"question": "What holds the Oscar trophy figurine?",
-			"answers": ["A sword", "A torch", "A book", "Nothing"],
-			"correctAnswer": "A sword"
-		},
-		{
-			"question": "What instrument does Sherlock Holmes play?",
-			"answers": ["Violin", "Flute", "Piano", "Guitar"],
-			"correctAnswer": "Violin"
-		},
-		{
-			"question": "What is a falchion?",
-			"answers": ["A sword", "A shield", "A helmet", "A spear"],
-			"correctAnswer": "A sword"
-		},
-		{
-			"question": "How many hearts does an octopus have?",
-			"answers": ["3", "2", "1", "0"],
-			"correctAnswer": "3"
-		},
-		{
-			"question": "What does the Tin Woodman want in the novel \"The Wonderful Wizard of Oz\"?",
-			"answers": ["A heart", "A brain", "Courage", "A home"],
-			"correctAnswer": "A heart"
-		},
-		{
-			"question": "What color is the hair of the protagonist in the anime \"Death Note\"?",
-			"answers": ["Black", "Blonde", "Red", "Brown"],
-			"correctAnswer": "Brown"
-		},
-		{
-			"question": "What is the name of the holy book of Islam?",
-			"answers": ["Quran", "Bible", "Torah", "Vedas"],
-			"correctAnswer": "Quran"
-		},
-		{
-			"question": "How old is a lustrum?",
-			"answers": ["5 years", "10 years", "15 years", "20 years"],
-			"correctAnswer": "5 years"
-		},
-		{
-			"question": "How many sides does a hexagon have?",
-			"answers": ["6", "5", "7", "8"],
-			"correctAnswer": "6"
 		}
 	]
 }
