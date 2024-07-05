@@ -13,6 +13,8 @@ export default function NewGameForm () {
 	const [nowQueries, setNowQueries] = useState(queries)
 	const router = useRouter()
 	const dialog = useRef(null)
+	const [username, setUserName] = useState('');
+
 
 	useEffect(() => setNowQueries(queries), [queries])
 
@@ -31,6 +33,11 @@ export default function NewGameForm () {
 		if (e.target.name === 'categories') {
 			e.target.checked ? playSound('pop-up-on') : playSound('pop-up-off')
 			return setNowQueries({ ...nowQueries, [e.target.name]: e.target.checked ? [...nowQueries.categories, e.target.value] : nowQueries.categories.filter(cat => cat !== e.target.value) })
+		}
+		if (e.target.name == 'username') {
+			// console.log("entered usernae", e.target.value)
+			localStorage.setItem('userName', e.target.value);
+			setUserName(e.target.value)
 		}
 
 		playSound('pop')
@@ -80,8 +87,12 @@ export default function NewGameForm () {
 				<div className='flex flex-col sm:flex-row gap-4 sm:gap-8 mb-4 md:mb-8'>
 					<JsxForm handleInputs={handleInputs} nowQueries={nowQueries} />
 				</div>
+				{username != '' ? 
+			                (
+								<button type='submit' className='btn-primary uppercase py-3 px-6 w-full tracking-widest'   onClick={(e) => handleSubmit(e)}>New game</button>
 
-				<button type='submit' className='btn-primary uppercase py-3 px-6 w-full tracking-widest' onClick={(e) => handleSubmit(e)}>New game</button>
+			                ) : ''
+				} 
 			</form>
 		</dialog >
 	)

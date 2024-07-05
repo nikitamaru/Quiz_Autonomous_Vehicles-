@@ -19,6 +19,15 @@ export default function JsxForm ({ handleInputs, nowQueries }) {
 	return (
 		<>
 			<div className='flex gap-2 sm:gap-5 flex-col'>
+						{/* Username Input */}
+						<input
+				type="text"
+				placeholder="Enter your username"
+				onChange={(e) => handleInputs(e)}
+				name="username"
+				className="bg-gray-200 px-3 py-2 rounded mb-3"
+				required
+				/>
 				<fieldset className='p-1'>
 					<legend className='text-lg font-semibold mb-2'>Wilcards</legend>
 					<ul className='flex gap-3 justify-between font-medium'>
