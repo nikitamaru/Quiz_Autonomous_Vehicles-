@@ -37,7 +37,10 @@ export default function Questions () {
 	useEffect(() => {
 
 
-		if (win !== undefined || !queries.timemode || loading || loadingInfinity){
+		// if (win !== undefined || !queries.timemode || loading || loadingInfinity) return
+
+		if (win !== undefined)
+		{
 			console.log((score-1)/questions.length*100);
 			console.log(questions.length);
 			newScore = (score-1)/questions.length*100
@@ -48,6 +51,7 @@ export default function Questions () {
 
 			scoreTable = updateScores(scoreTable, userName , newScore)
 			console.log("new scoretable",scoreTable)
+			localStorage.setItem('scoreTable',JSON.stringify(scoreTable))
 
 		}
 		const timeInterval = setInterval(() => setTime(time => time > 0 ? time - 1 : time), 1000)
@@ -55,8 +59,11 @@ export default function Questions () {
 	}, [queries.timemode, win, loading, loadingInfinity])
 
 	function updateScores(data, name, newScore){
+		if(data){
+
+		data = JSON.parse(data)
 		const user = data.find(user => user.name === name);
-		
+
 		if (user) {
 		  // User found, update the score
 		  user.score.push(newScore);
@@ -65,6 +72,7 @@ export default function Questions () {
 		  data.push({ id: data.length, name: name, score: [newScore] });
 		}
 		return data
+	}
 	  }
 	useEffect(() => {
 		if (win !== undefined || time > 0) return

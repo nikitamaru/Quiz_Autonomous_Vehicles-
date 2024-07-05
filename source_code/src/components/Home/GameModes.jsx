@@ -26,32 +26,32 @@ const scoreTable = [
 	{
 		"id": 0,
 		"name": "Aswathy",
-		"score": [10]
+		"score": [50,60,80]
 	},
 	{
 		"id": 0,
 		"name": "Nikita",
-		"score": [4, 0, 1]
+		"score": [50,75,90]
 	},
 	{
 		"id": 0,
 		"name": "Mehak",
-		"score": [9,2]
+		"score": [50,40,60]
 	},
 	{
 		"id": 0,
 		"name": "Sonia",
-		"score": [4,5,2]
+		"score": [50,40,60]
 	},
 	{
 		"id": 0,
 		"name": "Krina",
-		"score": [3, 7, 4]
+		"score": [30,20,10]
 	},
 	{
 		"id": 0,
 		"name": "Dev",
-		"score": [4,10]
+		"score": [40,30,20]
 	}
 ]
 
@@ -84,4 +84,3 @@ export default function GameModes ({ setIsButtonEnabled }) {
 		</section>
 	)
 }
-
