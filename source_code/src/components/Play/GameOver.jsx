@@ -123,7 +123,7 @@ export default function GameOver () {
 						<button onClick={() => document.getElementById('newGameDialog').showModal()} className='btn-primary px-5 md:px-10 py-3 uppercase tracking-widest rounded-md bg-blue-500 text-white'>
 							{queries.infinitymode || win !== false ? 'Play Again' : 'Try Again'}
 						</button>
-						<button className='btn-primary px-5 md:px-10 py-3 uppercase tracking-widest rounded-md bg-blue-500 text-white'>
+						<button onClick={() => document.getElementById('ShowResultDialog').showModal()} className='btn-primary px-5 md:px-10 py-3 uppercase tracking-widest rounded-md bg-blue-500 text-white'>
 							Show Results
 						</button>
 					</div>
