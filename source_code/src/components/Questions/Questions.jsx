@@ -12,8 +12,8 @@ import score_card from '@/assets/score.json'
 export default function Questions () {
 	const { questions, loading, loadingInfinity, currentQuestion, setCurrentQuestion, setUserAnswer, win, score, setWin, setScore, wildCards, useLivesCard, queries, getQuestions } = useBoundStore(state => state)
 	const [time, setTime] = useState(Number(queries.time))
-	const [score, setScore] = useState(score_card.data);
-
+	// const [score, setScore] = useState(score_card.data);
+	let scoreTable, userName, newScore
 	useEffect(() => {
 		const color = categories.find(cat => cat.name.toLowerCase() === questions[currentQuestion - 1]?.topic.toLowerCase())?.color
 		color && (document.body.style.backgroundColor = color)
@@ -37,14 +37,35 @@ export default function Questions () {
 	useEffect(() => {
 
 
-		if (win !== undefined || !queries.timemode || loading || loadingInfinity) {
-			console.log(score_card);
-			score_card = {}
+		if (win !== undefined || !queries.timemode || loading || loadingInfinity){
+			console.log((score-1)/questions.length*100);
+			console.log(questions.length);
+			newScore = (score-1)/questions.length*100
+			scoreTable = localStorage.getItem('scoreTable')
+			userName = localStorage.getItem('userName')
+			console.log("scoretable",scoreTable,userName, scoreTable[userName])
+			// scoreTable[userName]
+
+			scoreTable = updateScores(scoreTable, userName , newScore)
+			console.log("new scoretable",scoreTable)
+
 		}
 		const timeInterval = setInterval(() => setTime(time => time > 0 ? time - 1 : time), 1000)
 		return () => clearInterval(timeInterval)
 	}, [queries.timemode, win, loading, loadingInfinity])
 
+	function updateScores(data, name, newScore){
+		const user = data.find(user => user.name === name);
+		
+		if (user) {
+		  // User found, update the score
+		  user.score.push(newScore);
+		} else {
+		  // User not found, add new user
+		  data.push({ id: data.length, name: name, score: [newScore] });
+		}
+		return data
+	  }
 	useEffect(() => {
 		if (win !== undefined || time > 0) return
 

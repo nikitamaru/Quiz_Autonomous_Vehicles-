@@ -22,12 +22,46 @@ const gameModes = [
 	// }
 ]
 
+const scoreTable = [
+	{
+		"id": 0,
+		"name": "Aswathy",
+		"score": [10]
+	},
+	{
+		"id": 0,
+		"name": "Nikita",
+		"score": [4, 0, 1]
+	},
+	{
+		"id": 0,
+		"name": "Mehak",
+		"score": [9,2]
+	},
+	{
+		"id": 0,
+		"name": "Sonia",
+		"score": [4,5,2]
+	},
+	{
+		"id": 0,
+		"name": "Krina",
+		"score": [3, 7, 4]
+	},
+	{
+		"id": 0,
+		"name": "Dev",
+		"score": [4,10]
+	}
+]
+
 export default function GameModes ({ setIsButtonEnabled }) {
 	const [selectedMode, setSelectedMode] = useState(null);
 	const handleListItemClick = (modeTitle) => {
 	 console.log(`${modeTitle} clicked!`);
 	 localStorage.setItem('selectedMode', JSON.stringify(modeTitle));
 	 setSelectedMode(modeTitle)
+	 localStorage.setItem('scoreTable',JSON.stringify(scoreTable))
 	 setIsButtonEnabled(true); // Enable the button on the home page
  };
 	return (
@@ -51,7 +85,3 @@ export default function GameModes ({ setIsButtonEnabled }) {
 	)
 }
 
-
-// className={`bg-neutral-300 max-w-sm md:max-w-none bg-opacity-30 backdrop-blur-[2px] rounded p-5 hover:scale-[1.03] transition-all hover:backdrop-blur-0 hover:bg-opacity-100 hover:bg-white shadow-sm mx-auto cursor-pointer ${
-//                           selectedMode === mode ? 'bg-white border-2 border-blue-500' : ''
-//                         }`}

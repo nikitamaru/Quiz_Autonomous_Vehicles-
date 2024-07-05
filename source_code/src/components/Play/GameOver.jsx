@@ -115,7 +115,7 @@ export default function GameOver () {
 					<p className='text-center mb-3 whitespace-pre-line'>
 						{finalText()}
 					</p>
-					<div className='flex gap-6 items-center'>
+					<div className='flex gap-6 items-center score-card-btn'>
 						<Link href="/" className='px-5 md:px-10 hover:opacity-75 bg-slate-200 py-3 rounded-md transition-colors'>
 							<BiArrowBack color='#0f172a' className='text-xl mr-1 inline-block' title='' />
 							Go back
