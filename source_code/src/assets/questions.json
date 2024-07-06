@@ -1,669 +1,596 @@
 {
 	"Heavy Weather Changes": [
 		{
-			"question": "In what year did the Berlin Wall fall?",
-			"answers": ["1989", "1991", "1987", "1993"],
-			"correctAnswer": "1989"
+			"question": "How should an autonomous vehicle adjust its driving in snowy conditions?",
+			"answers": [" Increase speed to reduce travel time.", "Activate snow mode, reduce speed, and increase following distance", "Turn off all automated systems and allow manual control.",
+			 "Stop driving until the snow clears."],
+			"correctAnswer": "Activate snow mode, reduce speed, and increase following distance."
 		},
 		{
-			"question": "The first Roman emperor to become a Christian was:",
-			"answers": ["Constantine", "Augustus", "Julius Caesar", "Nero"],
-			"correctAnswer": "Constantine"
+			"question": "What should an autonomous vehicle do when it encounters dense fog?",
+			"answers": ["Speed up to get out of the fog quickly.", "Reduce speed, activate fog lights, and rely on radar and LIDAR sensors.",
+			 "Turn on high beams and continue at normal speed.", " Stop immediately and wait for the fog to clear."],
+			"correctAnswer": "Reduce speed, activate fog lights, and rely on radar and LIDAR sensors."
 		},
 		{
-			"question": "According to ancient legends, who founded Rome?",
+			"question": "In case of heavy hail, what is the best course of action for an autonomous vehicle?",
 			"answers": [
-				"Romulus and Remus",
-				"Julius Caesar",
-				"Augustus",
-				"Marcus Aurelius"
+				"Continue driving as normal.",
+				"Pull over to a safe location and wait for the hail to stop.",
+				" Increase speed to avoid hail damage.",
+				"Turn off all automated systems."
 			],
-			"correctAnswer": "Romulus and Remus"
+			"correctAnswer": "Pull over to a safe location and wait for the hail to stop."
 		},
 		{
-			"question": "Which civilization was responsible for the construction of Machu Picchu?",
-			"answers": ["Aztecs", "Mayans", "Incas", "Inuit"],
-			"correctAnswer": "Incas"
+			"question": "How should an autonomous vehicle handle driving during a thunderstorm?",
+			"answers": ["Maintain normal speed and ignore weather conditions.", "Reduce speed, ensure headlights are on, and be prepared for sudden stops.", "Stop driving and wait for the thunderstorm to pass.", "Rely solely on manual control."],
+			"correctAnswer": "Reduce speed, ensure headlights are on, and be prepared for sudden stops."
 		},
 		{
-			"question": "Who was the first woman to win a Nobel Prize?",
+			"question": "What adjustments should an autonomous vehicle make when driving through high winds?",
 			"answers": [
-				"Marie Curie",
-				"Mother Teresa",
-				"Margaret Thatcher",
-				"Indira Gandhi"
+				"Maintain normal speed and direction.",
+				"Reduce speed, stabilize the vehicle, and stay alert for debris.",
+				"Speed up to pass through the windy area quickly.",
+				"Pull over and wait for the winds to die down."
 			],
-			"correctAnswer": "Marie Curie"
+			"correctAnswer": "Reduce speed, stabilize the vehicle, and stay alert for debris."
 		},
 		{
-			"question": "Which of these countries was not a part of the Soviet Union?",
-			"answers": ["Ukraine", "Georgia", "Poland", "Belarus"],
-			"correctAnswer": "Poland"
+			"question": "How should an autonomous vehicle adjust its driving in heavy rain?",
+			"answers": ["Maintain normal speed and rely on sensors.", 
+			"Reduce speed, use wipers, and increase following distance.", 
+			"Turn off automated systems and switch to manual control.", "Stop driving until the rain stops."],
+			"correctAnswer": "Reduce speed, use wipers, and increase following distance."
 		},
 		{
-			"question": "By what other name is the Eastern Roman Empire known?",
+			"question": "What should an autonomous vehicle do when it encounters black ice on the road?",
 			"answers": [
-				"The Byzantine Empire",
-				"The Ottoman Empire",
-				"The Persian Empire",
-				"The Holy Roman Empire"
+				"Speed up to pass over the ice quickly.",
+				"Reduce speed gradually, avoid sudden maneuvers, and alert other vehicles.",
+				"Turn off all automated systems.",
+				"Stop immediately and wait for the ice to melt."
 			],
-			"correctAnswer": "The Byzantine Empire"
+			"correctAnswer": "Reduce speed gradually, avoid sudden maneuvers, and alert other vehicles."
 		},
 		{
-			"question": "Which country was the first to send a satellite into space?",
-			"answers": ["Russia", "USA", "China", "France"],
-			"correctAnswer": "Russia"
+			"question": "In case of a dust storm, how should an autonomous vehicle respond?",
+			"answers": ["Increase speed to get through the storm quickly.", "Reduce speed, use air filtration systems, and rely on radar sensors.",
+			 "Continue driving at normal speed.", "Stop driving and wait for the storm to pass."],
+			"correctAnswer": "Reduce speed, use air filtration systems, and rely on radar sensors."
 		},
 		{
-			"question": "Who was the first explorer to circumnavigate the globe?",
+			"question": "How should an autonomous vehicle handle driving during a heatwave?",
 			"answers": [
-				"Christopher Columbus",
-				"Vasco da Gama",
-				"Magellan",
-				"Francis Drake"
+				" Increase speed to keep the vehicle cool.",
+				"Ensure the air conditioning system is on and monitor engine temperature.",
+				"Drive only at night.",
+				"Turn off all automated systems."
 			],
-			"correctAnswer": "Magellan"
+			"correctAnswer": "Ensure the air conditioning system is on and monitor engine temperature."
 		},
 		{
-			"question": "What was the name of the document that established the United Nations?",
+			"question": "What should an autonomous vehicle do when it encounters a sudden hailstorm?",
 			"answers": [
-				"The Treaty of Versailles",
-				"The Geneva Convention",
-				"The Charter of the United Nations",
-				"The Magna Carta"
+				"Speed up to avoid hail damage.",
+				"Pull over to a safe location and wait for the hailstorm to pass.",
+				" Ignore the hail and continue driving.",
+				"Turn off all automated systems."
 			],
-			"correctAnswer": "The Charter of the United Nations"
+			"correctAnswer": "Pull over to a safe location and wait for the hailstorm to pass."
 		},
 		{
-			"question": "What is the name of the goddess of victory in Greek mythology?",
-			"answers": ["Nike", "Puma", "Adidas", "Aphrodite"],
-			"correctAnswer": "Nike"
+			"question": "How should an autonomous vehicle handle driving through a flooded area?",
+			"answers": ["Speed up to create a wave and pass through quickly.", 
+			"Avoid the flooded area and find an alternative route.", "Continue driving at normal speed.", "Turn off all automated systems and switch to manual control."],
+			"correctAnswer": "Avoid the flooded area and find an alternative route."
 		},
 		{
-			"question": "How many operas did Beethoven compose?",
-			"answers": ["1", "26", "165", "7"],
-			"correctAnswer": "1"
+			"question": "What adjustments should an autonomous vehicle make when driving through strong crosswinds?",
+			"answers": ["Maintain normal speed and direction.", "Reduce speed, stabilize the vehicle, and stay alert for sudden gusts.",
+			 "Speed up to pass through the windy area quickly.", "Pull over and wait for the winds to die down."],
+			"correctAnswer": "Reduce speed, stabilize the vehicle, and stay alert for sudden gusts."
 		},
 		{
-			"question": "What philosopher said \"I think, therefore I am\"?",
-			"answers": ["Descartes", "Plato", "Aristotle", "Socrates"],
-			"correctAnswer": "Descartes"
-		},
-		{
-			"question": "Which of these is not one of the Seven Wonders of the Ancient World?",
-			"answers": [
-				"The Great Library of Alexandria",
-				"Colossus of Rhodes",
-				"Lighthouse of Alexandria",
-				"Temple of Artemis"
-			],
-			"correctAnswer": "The Great Library of Alexandria"
-		},
-		{
-			"question": "Which of these is not a Greek god or goddess?",
-			"answers": ["Aphrodite", "Hera", "Athena", "Loki"],
-			"correctAnswer": "Loki"
+			"question": "In case of a sudden temperature drop, how should an autonomous vehicle respond?",
+			"answers": ["Speed up to reach the destination quickly.",
+			 "Monitor tire pressure, adjust speed, and use anti-freeze systems.", "Turn off all automated systems and switch to manual control.",
+			  "Stop driving until the temperature rises."],
+			"correctAnswer": "Monitor tire pressure, adjust speed, and use anti-freeze systems."
 		}
 	],
 	"Unexpected Road Obstacles": [
 		{
-			"question": "What is the name of the clown in the movie \"It\"?",
-			"answers": ["Pennywise", "Bozo", "Krusty", "Joker"],
-			"correctAnswer": "Pennywise"
+			"question": "What should an autonomous vehicle do when it detects a large pothole on the road?",
+			"answers": ["Speed up to jump over the pothole.", "Slow down, navigate around it if possible, and notify other vehicles.",
+			 "Ignore the pothole and continue driving.", "Stop immediately and wait for assistance."],
+			"correctAnswer": "Slow down, navigate around it if possible, and notify other vehicles."
 		},
 		{
-			"question": "What is the name of the fictional continent where the events of the TV series \"Game of Thrones\" take place?",
-			"answers": ["Westeros", "Essos", "Sothoryos", "Ulthos"],
-			"correctAnswer": "Westeros"
+			"question": "How should an autonomous vehicle respond to a sudden pedestrian crossing the road?",
+			"answers": ["Honk the horn and continue driving.", "Slow down and stop if necessary to allow the pedestrian to cross safely.", "Speed up to pass before the pedestrian crosses.",
+			 "Swerve around the pedestrian without reducing speed."],
+			"correctAnswer": "Slow down and stop if necessary to allow the pedestrian to cross safely."
 		},
 		{
-			"question": "Who played the role of Batman in the 2008 movie \"The Dark Knight\"?",
+			"question": "When encountering debris on the highway, what should an autonomous vehicle do?",
 			"answers": [
-				"Christian Bale",
-				"Ben Affleck",
-				"George Clooney",
-				"Val Kilmer"
+				"Drive over the debris without slowing down.",
+				"Alert other vehicles, slow down, and navigate around the debris.",
+				"Stop immediately and wait for the debris to be cleared.",
+				"Increase speed to avoid the debris quickly."
 			],
-			"correctAnswer": "Christian Bale"
+			"correctAnswer": "Alert other vehicles, slow down, and navigate around the debris."
 		},
 		{
-			"question": "What is the name of the fairy in the Disney movie \"Peter Pan\"?",
-			"answers": ["Tinker Bell", "Wendy", "Vidia", "Navi"],
-			"correctAnswer": "Tinker Bell"
+			"question": "How should an autonomous vehicle handle a sudden tire blowout?",
+			"answers": [" Immediately stop the vehicle.", "Gradually reduce speed, stabilize the vehicle, and safely pull over.", 
+			"Continue driving at the same speed.", "Increase speed to maintain control."],
+			"correctAnswer": "Gradually reduce speed, stabilize the vehicle, and safely pull over."
 		},
 		{
-			"question": "What is the name of the tiger that appears in the movie \"Life of Pi\"?",
-			"answers": ["Richard Parker", "Tony", "Shere Khan", "Pi Patel"],
-			"correctAnswer": "Richard Parker"
+			"question": "What is the appropriate response of an autonomous vehicle to an animal crossing the road?",
+			"answers": [" Ignore the animal and continue driving.", "Slow down, sound the horn, and stop if necessary to avoid a collision.", 
+			"Speed up to pass before the animal crosses.", "Swerve around the animal without reducing speed."],
+			"correctAnswer": "Slow down, sound the horn, and stop if necessary to avoid a collision."
 		},
 		{
-			"question": "Who wrote the novel \"One Hundred Years of Solitude\"?",
+			"question": "What should an autonomous vehicle do when it detects a fallen tree on the road?",
 			"answers": [
-				"Gabriel García Márquez",
-				"Jorge Luis Borges",
-				"Isabel Allende",
-				"Octavio Paz"
+				"Drive over the tree without slowing down.",
+				"Alert other vehicles, slow down, and navigate around the tree if possible",
+				"Ignore the tree and continue driving.",
+				"Stop immediately and wait for the tree to be removed."
 			],
-			"correctAnswer": "Gabriel García Márquez"
+			"correctAnswer": "Alert other vehicles, slow down, and navigate around the tree if possible"
 		},
 		{
-			"question": "Which of these is not a race or species in the video game \"World of Warcraft\"?",
-			"answers": ["Kokiri", "Undead", "Huargen", "Troll"],
-			"correctAnswer": "Kokiri"
+			"question": "How should an autonomous vehicle respond to a road construction site?",
+			"answers": ["Maintain normal speed and ignore the construction.",
+			 "Slow down, follow detour signs, and ensure safe navigation around the site.", "Speed up to pass through the construction quickly.",
+			  "Stop and wait for the construction to be completed."],
+			"correctAnswer": "Slow down, follow detour signs, and ensure safe navigation around the site."
 		},
 		{
-			"question": "How does Alice wane for the first time in the Disney movie \"Alice in Wonderland\"?",
+			"question": "When encountering a broken-down vehicle on the highway, what should an autonomous vehicle do?",
 			"answers": [
-				"She drinks a potion",
-				"She eats a cake",
-				"She falls down a hole",
-				"She walks through a mirror"
+				"Continue driving without slowing down.",
+				"Alert other vehicles, reduce speed, and safely navigate around the broken-down vehicle.",
+				"Stop immediately and wait for the broken-down vehicle to be towed.",
+				"Increase speed to avoid the broken-down vehicle quickly."
 			],
-			"correctAnswer": "She drinks a potion"
+			"correctAnswer": "Alert other vehicles, reduce speed, and safely navigate around the broken-down vehicle."
 		},
 		{
-			"question": "Who is the owner of Garfield in the comic strip \"Garfield\"?",
-			"answers": ["Jon Arbuckle", "Odie", "Nermal", "Liz Wilson"],
-			"correctAnswer": "Jon Arbuckle"
+			"question": "How should an autonomous vehicle handle a large pothole that suddenly appears?",
+			"answers": ["Drive over the pothole without slowing down.", "Slow down, alert other vehicles, and safely navigate around the pothole.",
+			 " Ignore the pothole and continue driving.", "Stop immediately and wait for the pothole to be filled."],
+			"correctAnswer": "Slow down, alert other vehicles, and safely navigate around the pothole."
 		},
 		{
-			"question": "In which of these animes does the main character carry his sister in a box?",
+			"question": "What is the appropriate response of an autonomous vehicle to a fallen signpost on the road?",
 			"answers": [
-				"Kimetsu no Yaiba",
-				"Elfen Lied",
-				"Code Geass",
-				"Made in Abyss"
+				"Ignore the signpost and continue driving.",
+				"Slow down, alert other vehicles, and navigate around the signpost safely.",
+				"Speed up to avoid the signpost quickly.",
+				"Stop immediately and wait for the signpost to be removed."
 			],
-			"correctAnswer": "Kimetsu no Yaiba"
+			"correctAnswer": " Slow down, alert other vehicles, and navigate around the signpost safely."
 		},
 		{
-			"question": "Where is the weak point of the titans in the anime \"Attack on Titan\"?",
-			"answers": ["Nape", "Head", "Heart", "Back"],
-			"correctAnswer": "Nape"
+			"question": "How should an autonomous vehicle respond to sudden tire debris on the highway?",
+			"answers": ["Drive over the debris without slowing down.", 
+			"Alert other vehicles, slow down, and navigate around the debris safely.", " Ignore the debris and continue driving.",
+			 "Stop immediately and wait for the debris to be cleared."],
+			"correctAnswer": "Alert other vehicles, slow down, and navigate around the debris safely."
 		},
 		{
-			"question": "How many puppies does Perdita give birth to in the Disney movie \"101 Dalmatians\"?",
-			"answers": ["15", "101", "99", "8"],
-			"correctAnswer": "15"
+			"question": "What should an autonomous vehicle do when encountering a pedestrian crossing the highway?",
+			"answers": ["Honk the horn and continue driving.", "Slow down, stop if necessary, and allow the pedestrian to cross safely.",
+			 "Speed up to pass before the pedestrian crosses.", "Swerve around the pedestrian without reducing speed."],
+			"correctAnswer": "Slow down, stop if necessary, and allow the pedestrian to cross safely."
 		},
 		{
-			"question": "How many dragon balls are there in the anime \"Dragon Ball\"?",
-			"answers": ["7", "8", "6", "12"],
-			"correctAnswer": "7"
-		},
-		{
-			"question": "In which of these movies are there aliens?",
-			"answers": [
-				"The Great Wall",
-				"Big Heroes 6",
-				"Duplicity",
-				"Braveheart"
-			],
-			"correctAnswer": "The Great Wall"
-		},
-		{
-			"question": "What is the name of Misa Amane's shinigami in the anime \"Death Note\"?",
-			"answers": ["Rem", "Ryuk", "Sidoh", "Gelus"],
-			"correctAnswer": "Rem"
+			"question": "How should an autonomous vehicle handle an unexpected cyclist on the road?",
+			"answers": ["Ignore the cyclist and continue driving.", "Slow down, give the cyclist ample space, and pass safely.",
+			 "Speed up to pass the cyclist quickly.", "Stop and wait for the cyclist to move aside."],
+			"correctAnswer": "Slow down, give the cyclist ample space, and pass safely."
 		}
 	],
 	"Heavy Traffic": [
 		{
-			"question": "What is the capital city of Australia?",
-			"answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
-			"correctAnswer": "Canberra"
+			"question": "In heavy traffic, how should an autonomous vehicle manage lane changes?",
+			"answers": ["Change lanes frequently to find the fastest route.", 
+			"Avoid changing lanes unnecessarily and maintain a safe distance.",
+			 "Increase speed to merge quickly.",
+			  "Turn off all automated systems and allow manual control."],
+			"correctAnswer": "Avoid changing lanes unnecessarily and maintain a safe distance."
 		},
 		{
-			"question": "How many stars appear on the flag of the People's Republic of China?",
-			"answers": ["4", "5", "6", "3"],
-			"correctAnswer": "5"
+			"question": "What strategy should an autonomous vehicle use to navigate through a traffic jam?",
+			"answers": ["Follow the vehicle in front closely to avoid losing space.", 
+			"Maintain a safe following distance and avoid aggressive maneuvers.", "Constantly switch lanes to find a faster route.", 
+			"Stop and wait for the traffic to clear."],
+			"correctAnswer": "Maintain a safe following distance and avoid aggressive maneuvers."
 		},
 		{
-			"question": "What continent is Saudi Arabia on?",
-			"answers": ["Asia", "Africa", "Europe", "South America"],
-			"correctAnswer": "Asia"
+			"question": "How should an autonomous vehicle respond to stop-and-go traffic?",
+			"answers": ["Maintain a steady speed regardless of traffic conditions.", 
+			"Adjust speed to match traffic flow and ensure smooth acceleration and deceleration.",
+			 "Stop completely and wait for traffic to clear.", "Speed up to pass through the traffic quickly."],
+			"correctAnswer": "Adjust speed to match traffic flow and ensure smooth acceleration and deceleration."
 		},
 		{
-			"question": "What is the name of the official language in China?",
-			"answers": ["Mandarin", "Cantonese", "Hokkien", "Hakka"],
-			"correctAnswer": "Mandarin"
+			"question": "In bumper-to-bumper traffic, what should an autonomous vehicle prioritize?",
+			"answers": ["Aggressively changing lanes to find a faster route.", 
+			"Keeping a safe following distance and preventing collisions.", " Speeding up to clear the traffic quickly.",
+			 "Turning off all automated systems and relying on manual control."],
+			"correctAnswer": "Keeping a safe following distance and preventing collisions."
 		},
 		{
-			"question": "Which of these European countries is further west?",
-			"answers": ["Spain", "Italy", "Greece", "Germany"],
-			"correctAnswer": "Spain"
+			"question": "How should an autonomous vehicle handle merging onto a busy highway?",
+			"answers": ["Merge at a high speed to avoid slowing down other vehicles.",
+			 "Use sensors to find a safe gap and merge smoothly at the appropriate speed.", 
+			 "Stop at the merging point and wait for a clear road.", "Turn off automated systems and merge manually."],
+			"correctAnswer": "Use sensors to find a safe gap and merge smoothly at the appropriate speed."
 		},
 		{
-			"question": "How many oceans are there on Earth?",
-			"answers": ["5", "6", "7", "8"],
-			"correctAnswer": "5"
+			"question": "In heavy traffic, how should an autonomous vehicle manage stop-and-go situations?",
+			"answers": ["Maintain a steady speed regardless of traffic conditions.", "Adjust speed to match traffic flow and ensure smooth acceleration and deceleration.",
+			 "Stop completely and wait for traffic to clear.", "Speed up to pass through the traffic quickly."],
+			"correctAnswer": "Adjust speed to match traffic flow and ensure smooth acceleration and deceleration."
 		},
 		{
-			"question": "What is the capital of Colombia?",
-			"answers": ["Bogotá", "Medellín", "Cali", "Barranquilla"],
-			"correctAnswer": "Bogotá"
+			"question": "How should an autonomous vehicle handle merging in heavy traffic?",
+			"answers": ["Merge at a high speed to avoid slowing down other vehicles.", "Use sensors to find a safe gap and merge smoothly at the appropriate speed.",
+			 "Stop at the merging point and wait for a clear road.", "Turn off automated systems and merge manually."],
+			"correctAnswer": "Use sensors to find a safe gap and merge smoothly at the appropriate speed."
 		},
 		{
-			"question": "Which country is the smallest in the world",
-			"answers": ["Vatican City", "Monaco", "Nauru", "Tuvalu"],
-			"correctAnswer": "Vatican City"
+			"question": "What strategy should an autonomous vehicle use to navigate through a congested intersection?",
+			"answers": ["Aggressively change lanes to find the fastest route.", "Increase speed to clear the intersection quickly.",
+			 "Wait patiently, follow traffic signals, and avoid unnecessary lane changes.", "Stop and wait for the intersection to clear."],
+			"correctAnswer": "Wait patiently, follow traffic signals, and avoid unnecessary lane changes."
 		},
 		{
-			"question": "What is the largest country in Africa by land area?",
-			"answers": ["Algeria", "Sudan", "Libya", "Congo"],
-			"correctAnswer": "Algeria"
+			"question": "How should an autonomous vehicle respond to slow-moving traffic?",
+			"answers": ["Maintain normal speed and try to overtake other vehicles.",
+			 "Adjust speed to match the flow of traffic and maintain a safe following distance.", "Stop completely and wait for traffic to clear.",
+			  "Turn off automated systems and rely on manual control."],
+			"correctAnswer": "Adjust speed to match the flow of traffic and maintain a safe following distance."
 		},
 		{
-			"question": "What is the highest mountain in America?",
+			"question": "In bumper-to-bumper traffic, what should an autonomous vehicle prioritize?",
 			"answers": [
-				"Mount Denali",
-				"Mount Logan",
-				"Mount Saint Elias",
-				"Pico de Orizaba"
+				" Speeding up to clear the traffic quickly.",
+				"Turning off all automated systems and relying on manual control.",
+				"Keeping a safe following distance and preventing collisions.",
+				"Aggressively changing lanes to find a faster route."
 			],
-			"correctAnswer": "Mount Denali"
+			"correctAnswer": "Keeping a safe following distance and preventing collisions."
 		},
 		{
-			"question": "Which city is located both in Europe and Asia?",
-			"answers": ["Istanbul", "Moscow", "Kiev", "Nicosia"],
-			"correctAnswer": "Istanbul"
+			"question": "How should an autonomous vehicle manage lane changes in heavy traffic?",
+			"answers": ["Turn off all automated systems and allow manual control.", "Change lanes frequently to find the fastest route.",
+			 "Avoid changing lanes unnecessarily and maintain a safe distance.", "Increase speed to merge quickly."],
+			"correctAnswer": "Avoid changing lanes unnecessarily and maintain a safe distance."
 		},
 		{
-			"question": "What is the name of the world's largest reef system, located in Australia?",
+			"question": "What should an autonomous vehicle do when approaching a congested roundabout?",
 			"answers": [
-				"Great Barrier Reef",
-				"Belize Barrier Reef",
-				"Mesoamerican Barrier Reef",
-				"Andros Barrier Reef"
+				"Slow down, yield to traffic, and enter the roundabout when safe.",
+				"Stop at the entrance and wait for the roundabout to clear.",
+				"Enter the roundabout quickly to avoid slowing down other vehicles.",
+				"Turn off automated systems and rely on manual control."
 			],
-			"correctAnswer": "Great Barrier Reef"
+			"correctAnswer": "Slow down, yield to traffic, and enter the roundabout when safe."
 		},
 		{
-			"question": "Which river is the longest in the world?",
-			"answers": ["Nile", "Amazon", "Yangtze", "Mississippi"],
-			"correctAnswer": "Amazon"
-		},
-		{
-			"question": "Which country is the largest by land area?",
-			"answers": ["Russia", "Canada", "China", "United States"],
-			"correctAnswer": "Russia"
-		},
-		{
-			"question": "How many states are part of the United States?",
-			"answers": ["50", "51", "48", "53"],
-			"correctAnswer": "50"
-		},
-		{
-			"question": "Which of these countries is not in Europe?",
-			"answers": ["Georgia", "Moldova", "Armenia", "Azerbaijan"],
-			"correctAnswer": "Armenia"
-		},
-		{
-			"question": "What is the official currency of India?",
-			"answers": ["Rupee", "Ruble", "Rial", "Real"],
-			"correctAnswer": "Rupee"
-		},
-		{
-			"question": "In which country is Mount Everest located?",
-			"answers": ["Nepal", "China", "India", "Pakistan"],
-			"correctAnswer": "Nepal"
+			"question": "How should an autonomous vehicle respond to a traffic jam on a freeway?",
+			"answers": ["Speed up to find an opening in the traffic.", "Turn off all automated systems and switch to manual control.",
+			 "Stop completely and wait for the traffic to clear.", "Reduce speed, follow the flow of traffic, and use navigation to find alternative routes if necessary."],
+			"correctAnswer": "Reduce speed, follow the flow of traffic, and use navigation to find alternative routes if necessary."
 		}
 	],
 	"Route Optimization": [
 		{
-			"question": "What is the chemical symbol for gold?",
-			"answers": ["Au", "Ag", "Cu", "Fe"],
-			"correctAnswer": "Au"
+			"question": "What should an autonomous vehicle consider when optimizing a route?",
+			"answers": ["Only the shortest distance.", "Traffic conditions, road closures, and weather forecasts.",
+			 "Maximum speed limits on each road.", "Availability of scenic views."],
+			"correctAnswer": "Traffic conditions, road closures, and weather forecasts."
 		},
 		{
-			"question": "What is the triangle that has three equal sides called?",
-			"answers": ["Equilateral", "Isosceles", "Scalene", "Right"],
-			"correctAnswer": "Equilateral"
+			"question": "How should an autonomous vehicle adjust its route in case of an unexpected road closure?",
+			"answers": ["Turn off the automated system and find a new route manually.",
+			 "Use real-time data to find the quickest alternative route.", "Stop and wait for the road to reopen.", 
+			 "Continue towards the road closure and request manual control."],
+			"correctAnswer": "Use real-time data to find the quickest alternative route."
 		},
 		{
-			"question": "What is an oviparous?",
+			"question": "What factor is least important for an autonomous vehicle when planning a route?",
 			"answers": [
-				"An animal that lays eggs",
-				"An animal that gives birth",
-				"An animal that flies",
-				"An animal that lives in the water"
+				"Current weather conditions.",
+				"Presence of toll roads.",
+				"Shortest possible distance",
+				"User's preferred driving speed."
 			],
-			"correctAnswer": "An animal that lays eggs"
+			"correctAnswer": "User's preferred driving speed."
 		},
 		{
-			"question": "Cartography is the study of what?",
-			"answers": ["Maps", "Cars", "Cats", "Carpets"],
-			"correctAnswer": "Maps"
+			"question": "How does an autonomous vehicle use historical traffic data for route optimization?",
+			"answers": ["To predict future traffic patterns and avoid congested areas.", "To find the most scenic route.",
+			 "To ensure the vehicle always takes the same route.", "To calculate the shortest distance only."],
+			"correctAnswer": "To predict future traffic patterns and avoid congested areas."
 		},
 		{
-			"question": "If 50 is 100%, what is 90%?",
-			"answers": ["45", "10", "100", "50"],
-			"correctAnswer": "45"
+			"question": "What should an autonomous vehicle do if it encounters a high traffic area while following a pre-planned route?",
+			"answers": ["Stick to the pre-planned route regardless of traffic.", 
+			"Use alternative routes suggested by real-time traffic data.", "Stop and wait for traffic to clear.", "Switch to manual control."],
+			"correctAnswer": "Use alternative routes suggested by real-time traffic data."
 		},
 		{
-			"question": "How many legs does a fly have?",
-			"answers": ["6", "4", "8", "2"],
-			"correctAnswer": "6"
+			"question": "What is the primary goal of route optimization in autonomous vehicles?",
+			"answers": ["To find the longest possible route.", "To minimize travel time and fuel consumption.",
+			 "To avoid highways.", "To maximize the number of stops."],
+			"correctAnswer": "To minimize travel time and fuel consumption."
 		},
 		{
-			"question": "What is the smallest unit of matter?",
-			"answers": ["Atom", "Molecule", "Cell", "Electron"],
-			"correctAnswer": "Atom"
+			"question": "How do autonomous vehicles determine the most efficient route?",
+			"answers": ["By randomly selecting a route.", "Using GPS, real-time traffic data, and predictive algorithms.",
+			 "By avoiding all major roads.", "By following a fixed, pre-programmed route."],
+			"correctAnswer": "Using GPS, real-time traffic data, and predictive algorithms."
 		},
 		{
-			"question": "What element do all acids contain?",
-			"answers": ["Hydrogen", "Oxygen", "Helium", "Nitrogen"],
-			"correctAnswer": "Hydrogen"
+			"question": "What should an autonomous vehicle do if it encounters unexpected road closures?",
+			"answers": ["Recalculate the route using real-time data and find an alternative path.",
+			 "Stop and wait for the road to reopen.", "Ignore the closure and continue driving.", "Turn off all automated systems."],
+			"correctAnswer": "Recalculate the route using real-time data and find an alternative path."
 		},
 		{
-			"question": "What is the name of the process by which plants convert sunlight into energy?",
+			"question": "How can autonomous vehicles optimize routes to reduce fuel consumption?",
 			"answers": [
-				"Photosynthesis",
-				"Respiration",
-				"Digestion",
-				"Fermentation"
+				"By taking the longest route possible.",
+				"By stopping frequently.",
+				"By driving at high speeds constantly.",
+				"By avoiding traffic congestion and using the most direct path."
 			],
-			"correctAnswer": "Photosynthesis"
+			"correctAnswer": "By avoiding traffic congestion and using the most direct path."
 		},
 		{
-			"question": "What is the name of the force that pulls objects toward each other?",
-			"answers": ["Gravity", "Magnetism", "Friction", "Electricity"],
-			"correctAnswer": "Gravity"
+			"question": "What technology assists autonomous vehicles in route optimization?",
+			"answers": ["Manual maps.", "Satellite TV.", "GPS, traffic monitoring systems, and artificial intelligence.", "FM radio."],
+			"correctAnswer": "GPS, traffic monitoring systems, and artificial intelligence."
 		},
 		{
-			"question": "What is the metal found in the center of the earth?",
-			"answers": ["Iron", "Nickel", "Copper", "Zinc"],
-			"correctAnswer": "Iron"
+			"question": "When faced with multiple route options, what should an autonomous vehicle prioritize?",
+			"answers": ["The route with the least amount of technology required.", "The route with the highest number of stops.", "The route that minimizes travel time and avoids congestion.", "The route with the most scenic views."],
+			"correctAnswer": "The route that minimizes travel time and avoids congestion."
 		},
 		{
-			"question": "What are diamonds made of?",
-			"answers": ["Carbon", "Glass", "Silver", "Platinum"],
-			"correctAnswer": "Carbon"
+			"question": "How do autonomous vehicles handle changing traffic conditions?",
+			"answers": ["By dynamically adjusting routes based on real-time traffic data.",
+			 "By stopping and waiting for traffic conditions to improve.", "By turning off all automated systems.", " By ignoring them and sticking to the pre-planned route."],
+			"correctAnswer": "By dynamically adjusting routes based on real-time traffic data."
 		},
 		{
-			"question": "What is the name of the process by which a solid turns into a gas without passing through the liquid state?",
+			"question": "What is a key advantage of route optimization for autonomous vehicles?",
 			"answers": [
-				"Sublimation",
-				"Evaporation",
-				"Condensation",
-				"Freezing"
+				"Increased fuel consumption.",
+				"More frequent stops.",
+				"Less use of technology.",
+				"Reduced travel time and lower operational costs."
 			],
-			"correctAnswer": "Sublimation"
-		},
-		{
-			"question": "What is the name of the protein that gives skin, hair, and nails their strength?",
-			"answers": ["Keratin", "Collagen", "Elastin", "Myosin"],
-			"correctAnswer": "Keratin"
-		},
-		{
-			"question": "How many chemical elements are there on the periodic table?",
-			"answers": ["118", "92", "104", "113"],
-			"correctAnswer": "118"
-		},
-		{
-			"question": "What is the first element on the periodic table?",
-			"answers": ["Hydrogen", "Helium", "Lithium", "Oxygen"],
-			"correctAnswer": "Hydrogen"
-		},
-		{
-			"question": "What vitamin can be synthesized when exposed to sunlight?",
-			"answers": ["Vitamin D", "Vitamin A", "Vitamin C", "Vitamin E"],
-			"correctAnswer": "Vitamin D"
-		},
-		{
-			"question": "Every how many years does Halley's Comet pass the earth?",
-			"answers": ["75", "86", "96", "106"],
-			"correctAnswer": "75"
-		},
-		{
-			"question": "What is the only even prime number?",
-			"answers": ["2", "14", "6", "8"],
-			"correctAnswer": "2"
-		},
-		{
-			"question": "-3 + 10 ÷ 2",
-			"answers": ["2", "1", "4", "3.5"],
-			"correctAnswer": "2"
-		},
-		{
-			"question": "What does the gallon measure?",
-			"answers": ["Volume", "Weight", "Distance", "Time"],
-			"correctAnswer": "Volume"
-		},
-		{
-			"question": "What does the newton measure?",
-			"answers": ["Force", "Weight", "Distance", "Time"],
-			"correctAnswer": "Force"
+			"correctAnswer": "Reduced travel time and lower operational costs."
 		}
 	],
 	"Safety & regulations": [
 		{
-			"question": "Which company developed the programming language Java?",
-			"answers": ["Sun Microsystems", "Microsoft", "Apple", "IBM"],
-			"correctAnswer": "Sun Microsystems"
+			"question": "What must an autonomous vehicle do to comply with local traffic laws?",
+			"answers": ["Follow all speed limits and traffic signals.",
+			 "Only avoid collisions.", "Drive at maximum speed limits at all times.", "Follow manual control instructions from passengers."],
+			"correctAnswer": "Follow all speed limits and traffic signals."
 		},
 		{
-			"question": "How many bits is a byte?",
-			"answers": ["8", "4", "16", "32"],
-			"correctAnswer": "8"
+			"question": "How should an autonomous vehicle handle emergency vehicles on the road?",
+			"answers": ["Ignore them and continue driving.", "Yield the right of way and pull over if necessary.", 
+			" Speed up to clear the area quickly.", "Stop immediately in the middle of the road."],
+			"correctAnswer": "Yield the right of way and pull over if necessary."
 		},
 		{
-			"question": "How many megabytes is a gigabyte?",
+			"question": "What is a critical requirement for autonomous vehicles to operate on public roads?",
 			"answers": [
-				"1024",
-				"1000",
-				"100",
-				"Depends on the size of the file"
+				"High fuel efficiency.",
+				"Compliance with all safety regulations and obtaining necessary permits.",
+				"Ability to drive at high speeds.",
+				"Comfortable seating for passengers."
 			],
-			"correctAnswer": "1024"
+			"correctAnswer": "Compliance with all safety regulations and obtaining necessary permits."
 		},
 		{
-			"question": "What is the name of the open-source operating system based on the Linux kernel?",
-			"answers": ["Ubuntu", "Windows", "macOS", "Android"],
-			"correctAnswer": "Ubuntu"
+			"question": "How should an autonomous vehicle respond to a red traffic light?",
+			"answers": ["Slow down but continue through the intersection.", "Stop completely and wait for the light to turn green.", 
+			"Speed up to cross before the light changes.", "Ignore the traffic light and follow the pre-planned route."],
+			"correctAnswer": "Stop completely and wait for the light to turn green."
 		},
 		{
-			"question": "What is the name of the first computer?",
-			"answers": ["ENIAC", "UNIVAC I", "Z1", "Colossus"],
-			"correctAnswer": "ENIAC"
+			"question": "What ethical consideration should be programmed into autonomous vehicles?",
+			"answers": ["Prioritizing the safety of the vehicle's occupants over pedestrians.",
+			 "Avoiding all collisions, regardless of consequences.", "Making decisions that ensure the greatest overall safety for all involved.",
+			  "Minimizing financial costs of repairs and maintenance."],
+			"correctAnswer": "Making decisions that ensure the greatest overall safety for all involved."
 		},
 		{
-			"question": "What is the name of the web browser developed by Google?",
-			"answers": ["Chrome", "Firefox", "Safari", "Opera"],
-			"correctAnswer": "Chrome"
+			"question": "What safety feature is essential for autonomous vehicles?",
+			"answers": ["Manual steering wheel control.", " Cassette player.", "Advanced emergency braking systems.", "Sunroof"],
+			"correctAnswer": "Advanced emergency braking systems."
 		},
 		{
-			"question": "What is the name of the programming language used to create web pages?",
-			"answers": ["JavaScript", "CSS", "PhP", "Python"],
-			"correctAnswer": "JavaScript"
+			"question": "What should autonomous vehicles do to comply with local traffic laws?",
+			"answers": ["Follow all traffic signals, signs, and speed limits.", "Ignore all traffic signs.", "Only follow traffic laws during the daytime.", "Drive at any speed they choose."],
+			"correctAnswer": "Follow all traffic signals, signs, and speed limits."
 		},
 		{
-			"question": "The \".WAV\" is a format of?",
-			"answers": ["Audio", "Video", "Image", "Document"],
-			"correctAnswer": "Audio"
+			"question": "How should autonomous vehicles be programmed to handle school zones?",
+			"answers": ["Reduce speed and increase awareness for crossing children.", "Ignore school zone speed limits.", "Speed up to avoid stopping.", "Drive at the same speed as other vehicles."],
+			"correctAnswer": "Reduce speed and increase awareness for crossing children."
 		},
 		{
-			"question": "What is the name of the first computer virus?",
-			"answers": ["Creeper", "Elk Cloner", "Rabbit", "Stoned"],
-			"correctAnswer": "Creeper"
+			"question": "What is the primary concern of safety regulations for autonomous vehicles?",
+			"answers": ["Ensuring the safety of passengers, pedestrians, and other road users.", "Increasing the number of vehicles on the road. ",
+			 "Reducing the cost of vehicle maintenance.", "Improving entertainment systems."],
+			"correctAnswer": "Ensuring the safety of passengers, pedestrians, and other road users."
 		},
 		{
-			"question": "How many laws of robotics (or Asimov's laws) are there?",
-			"answers": ["3", "4", "2", "6"],
-			"correctAnswer": "3"
+			"question": "What should autonomous vehicles do in case of a system malfunction?",
+			"answers": ["Continue driving as usual.", " Speed up to reach the destination quickly.",
+			 "Safely pull over and notify the driver or authorities.", "Ignore the malfunction and keep going."],
+			"correctAnswer": "Safely pull over and notify the driver or authorities."
 		},
 		{
-			"question": "What is the name of the first video game console?",
+			"question": "How can autonomous vehicles ensure compliance with safety regulations?",
 			"answers": [
-				"Magnavox Odyssey",
-				"Atari 2600",
-				"Nintendo Entertainment System",
-				"Sega Genesis"
+				"By ignoring software updates.",
+				"By avoiding all safety checks.",
+				"By regularly updating software and adhering to regulatory standards.",
+				"By only operating during certain hours."
 			],
-			"correctAnswer": "Magnavox Odyssey"
+			"correctAnswer": "By regularly updating software and adhering to regulatory standards."
 		},
 		{
-			"question": "What is the best-selling video game in history?",
+			"question": "What role do ethical considerations play in the programming of autonomous vehicles?",
 			"answers": [
-				"Minecraft",
-				"Tetris",
-				"Wii Sports",
-				"Grand Theft Auto V"
+				"None at all.",
+				"Only focusing on reducing costs.",
+				"Ensuring decisions are made to maximize overall safety and minimize harm",
+				"Ignoring the safety of pedestrians."
 			],
-			"correctAnswer": "Minecraft"
+			"correctAnswer": "Ensuring decisions are made to maximize overall safety and minimize harm"
 		},
 		{
-			"question": "What color are the pigs in the video game \"Angry Birds\"?",
-			"answers": ["Green", "Red", "Yellow", "Blue"],
-			"correctAnswer": "Green"
-		},
-		{
-			"question": "Which of these is not a champion in the video game \"League of Legends\"?",
-			"answers": ["Gang-il", "Ahri", "Teemo", "Ryze"],
-			"correctAnswer": "Gang-il"
-		},
-		{
-			"question": "How many points do the grapes give in the video game \"Pacman\"?",
-			"answers": ["1000", "700", "100", "400"],
-			"correctAnswer": "1000"
-		},
-		{
-			"question": "What is the name of the main character in the video game \"The Legend of Zelda\"?",
-			"answers": ["Link", "Zelda", "Ganon", "Ganondorf"],
-			"correctAnswer": "Link"
+			"question": "What is a key regulatory requirement for autonomous vehicles?",
+			"answers": ["Having a built-in entertainment system.", "Avoiding regular maintenance.", "Ignoring local traffic laws.", "Ensuring robust cybersecurity measures to protect against hacking."],
+			"correctAnswer": "Ensuring robust cybersecurity measures to protect against hacking."
 		}
 	],
 	"Others": [
 		{
-			"question": "Who painted the famous artwork \"The Starry Night\"?",
+			"question": "What technology is essential for autonomous vehicles to detect their surroundings?",
 			"answers": [
-				"Vincent van Gogh",
-				"Leonardo da Vinci",
-				"Pablo Picasso",
-				"Michelangelo"
+				"Manual steering wheel control.",
+				"LIDAR, radar, and cameras.",
+				"High-speed internet connection.",
+				"Satellite TV."
 			],
-			"correctAnswer": "Vincent van Gogh"
+			"correctAnswer": "LIDAR, radar, and cameras."
 		},
 		{
-			"question": "Which sculptor made the famous sculpture \"David?\"?",
+			"question": "How should an autonomous vehicle respond to a passenger emergency, like a medical issue?",
 			"answers": [
-				"Michelangelo",
-				"Donatello",
-				"Leonardo da Vinci",
-				"Raphael"
+				"Continue driving to the destination.",
+				"Pull over safely and notify emergency services.",
+				"Speed up to reach the nearest hospital.",
+				"Ignore the emergency and follow the pre-planned route."
 			],
-			"correctAnswer": "Michelangelo"
+			"correctAnswer": "Pull over safely and notify emergency services."
 		},
 		{
-			"question": "What is the best-selling album in history?",
+			"question": "What is a major benefit of autonomous vehicles for urban transportation?",
 			"answers": [
-				"Thriller",
-				"Back in Black",
-				"The Dark Side of the Moon",
-				"Bat Out of Hell"
+				"Increased fuel consumption.",
+				"Reduced traffic congestion and improved road safety.",
+				"Higher maintenance costs.",
+				"Increased noise pollution."
 			],
-			"correctAnswer": "Thriller"
+			"correctAnswer": " Reduced traffic congestion and improved road safety"
 		},
 		{
-			"question": "How many strings does a guitar have?",
-			"answers": ["Six", "Four", "Twelve", "Eight"],
-			"correctAnswer": "Six"
+			"question": "How can autonomous vehicles contribute to environmental sustainability?",
+			"answers": [" By using more fossil fuels.",
+			 "By optimizing routes for fuel efficiency and reducing emissions.", "By increasing travel time.",
+			  "By requiring frequent manual maintenance."],
+			"correctAnswer": "By optimizing routes for fuel efficiency and reducing emissions."
 		},
 		{
-			"question": "What is the name of the famous statue that depicts the Greek goddess of love and beauty?",
+			"question": "What should an autonomous vehicle do if it loses GPS signal during a trip?",
 			"answers": [
-				"Venus de Milo",
-				"David",
-				"The Thinker",
-				"Laocoön and His Sons"
+				"Stop immediately and wait for the signal to return.",
+				"Use onboard maps and sensors to navigate until the signal is restored.",
+				"Drive in circles until the signal returns.",
+				"Switch to manual control."
 			],
-			"correctAnswer": "Venus de Milo"
+			"correctAnswer": "Use onboard maps and sensors to navigate until the signal is restored."
 		},
 		{
-			"question": "What band is the author of the song \"Believer\"?",
+			"question": "How do autonomous vehicles benefit urban transportation systems?",
 			"answers": [
-				"Imagine Dragons",
-				"Coldplay",
-				"Maroon 5",
-				"Linkin Park"
+				"By increasing traffic congestion.",
+				"By increasing noise pollution",
+				"By reducing traffic congestion and improving road safety.",
+				"By using more fossil fuels."
 			],
-			"correctAnswer": "Imagine Dragons"
+			"correctAnswer": "By reducing traffic congestion and improving road safety."
 		},
 		{
-			"question": "What is the name of the famous Italian artist who painted the ceiling of the Sistine Chapel?",
+			"question": "What is an important consideration for autonomous vehicle manufacturers?",
 			"answers": [
-				"Michelangelo",
-				"Leonardo da Vinci",
-				"Raphael",
-				"Sandro Botticelli"
+				"Ensuring vehicles are affordable and environmentally friendly.",
+				"Reducing safety features.",
+				"Increasing vehicle weight.",
+				"Ignoring environmental impact."
 			],
-			"correctAnswer": "Michelangelo"
+			"correctAnswer": "Ensuring vehicles are affordable and environmentally friendly."
 		},
 		{
-			"question": "Who is Don Quixote in love with in the play \"The Ingenious Hidalgo Don Quixote of La Mancha\"?",
-			"answers": ["Dulcinea", "Maritornes", "Antonia", "Fernanda"],
-			"correctAnswer": "Dulcinea"
+			"question": "How do autonomous vehicles impact the job market?",
+			"answers": ["By creating more jobs for traditional drivers.", "By not affecting the job market at all.", "By eliminating all jobs in the transportation sector.", " By potentially reducing the need for certain driving jobs while creating new tech-related jobs."],
+			"correctAnswer": " By potentially reducing the need for certain driving jobs while creating new tech-related jobs."
 		},
 		{
-			"question": "What is the name of the famous ballet composed by Tchaikovsky?",
+			"question": "What role do passengers play in autonomous vehicles?",
 			"answers": [
-				"Swan Lake",
-				"The Nutcracker",
-				"Romeo and Juliet",
-				"The Sleeping Beauty"
+				"They must drive the vehicle manually.",
+				"They have no role at all.",
+				"They can take over control if needed and ensure safety.",
+				"They must program the vehicle's route."
 			],
-			"correctAnswer": "Swan Lake"
+			"correctAnswer": "They can take over control if needed and ensure safety"
 		},
 		{
-			"question": "Who is the author of the famous book \"The Little Prince\"?",
+			"question": "What is a common misconception about autonomous vehicles?",
 			"answers": [
-				"Antoine de Saint-Exupéry",
-				"Jean-Jacques Rousseau",
-				"Voltaire",
-				"Victor Hugo"
+				"They require ongoing monitoring and updates to maintain safety and efficiency.",
+				"They are completely error-free.",
+				"They are the only solution for future transportation.",
+				"They do not need any form of regulation."
 			],
-			"correctAnswer": "Antoine de Saint-Exupéry"
+			"correctAnswer": "They require ongoing monitoring and updates to maintain safety and efficiency."
 		},
 		{
-			"question": "What architectural style is Notre Dame Cathedral?",
-			"answers": ["Gothic", "Baroque", "Renaissance", "Neoclassical"],
-			"correctAnswer": "Gothic"
+			"question": "What is a potential benefit of autonomous vehicles for elderly or disabled individuals?",
+			"answers": ["Increased independence and mobility.", "Increased need for manual driving assistance.", "Higher transportation costs."
+			, "Limited access to transportation."],
+			"correctAnswer": "Increased independence and mobility."
 		},
 		{
-			"question": "Which famous playwright wrote the play \"Hamlet\"?",
+			"question": "What infrastructure is important for the successful integration of autonomous vehicles?",
 			"answers": [
-				"William Shakespeare",
-				"Tennessee Williams",
-				"Arthur Miller",
-				"Samuel Beckett"
+				"Smart infrastructure with sensors and communication systems.",
+				"More stop signs and traffic lights.",
+				"Standard roads with no changes.",
+				"Narrower roads."
 			],
-			"correctAnswer": "William Shakespeare"
+			"correctAnswer": "Smart infrastructure with sensors and communication systems."
 		},
 		{
-			"question": "Which famous novel by George Orwell tells the story of a society where government surveillance and propaganda control all aspects of people's lives?",
+			"question": "What should autonomous vehicles do if they detect a potential collision?",
 			"answers": [
-				"1984",
-				"Animal Farm",
-				"Brave New World",
-				"Fahrenheit 451"
+				"Apply emergency brakes, alert the driver, and take evasive action if necessary.",
+				" Speed up to avoid the collision.",
+				"Continue driving at normal speed.",
+				"Ignore the potential collision."
 			],
-			"correctAnswer": "1984"
-		},
-		{
-			"question": "Who is the author of the 'Harry Potter' book series?",
-			"answers": [
-				"J.K. Rowling",
-				"Stephen King",
-				"George R.R. Martin",
-				"Dan Brown"
-			],
-			"correctAnswer": "J.K. Rowling"
-		},
-		{
-			"question": "In music, how many lines does a staff have?",
-			"answers": ["Five", "Four", "Six", "Three"],
-			"correctAnswer": "Five"
+			"correctAnswer": "Apply emergency brakes, alert the driver, and take evasive action if necessary."
 		}
 	]
 }
