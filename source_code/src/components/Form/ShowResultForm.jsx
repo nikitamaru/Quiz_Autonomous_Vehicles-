@@ -13,18 +13,30 @@ export default function ShowResultForm () {
 	const [nowQueries, setNowQueries] = useState(queries)
 	const router = useRouter()
 	const dialog = useRef(null)
-	const [username, setUserName] = useState('');
-	let scoreTable, userName, newScore,data,mode,currentUserScore
+	const [userName, setUserName] = useState('');
+	const [mode, setMode] = useState(null);
+	const [data, setData] = useState(null);
+	let scoreTable,currentUserScore
+	console.log("modeee",mode)
 
-	useEffect(() => {
-		scoreTable = localStorage.getItem('scoreTable')
-		userName = localStorage.getItem('userName')
-		mode = localStorage.getItem('selectedMode')
-		console.log("scoretable",scoreTable,userName)
-		data = JSON.parse(scoreTable)
-		const sortedData = [...data].sort((a, b) => getBestScore(b.score) - getBestScore(a.score));
+	useEffect(() =>{
+		if (typeof window !== 'undefined') {
+			setMode(localStorage.getItem('selectedMode'))
+			scoreTable = localStorage && localStorage.getItem('scoreTable')
+			setUserName(localStorage.getItem('userName'))
+			
+			console.log("scoretable",scoreTable,userName,mode)
+			setData(JSON.parse(scoreTable))
+			
+	
+	
+		}
 
-		}, [])
+	},[])
+	
+
+	
+
 
 	useEffect(() => setNowQueries(queries), [queries])
 
@@ -35,18 +47,16 @@ export default function ShowResultForm () {
 
 	}, [router.isReady])
 
-	scoreTable = localStorage.getItem('scoreTable')
-	userName = localStorage.getItem('userName')
-	mode = localStorage.getItem('selectedMode')
-	console.log("scoretable",scoreTable,userName)
-	data = JSON.parse(scoreTable)
-
 	const getBestScore = (scores) => Math.max(...scores);
-	const sortedData = [...data].sort((a, b) => getBestScore(b.score) - getBestScore(a.score));
+	const sortedData = data && [...data].sort((a, b) => getBestScore(b.score) - getBestScore(a.score));
 
+	console.log("sorteddata",sortedData)
+
+	currentUserScore = data && data.find((user) => user.name === userName)?.score || [];
+
+	// currentUserScore = data &&  data.map((user) => user.name === userName ? user.score : [])
+	console.log("currentUserScore",currentUserScore)
 	const isImproving = (scores) => { if (scores.length < 2) return 'Not enough data'; return scores[scores.length - 1] > scores[scores.length - 2] ? 'Yes' : 'No'; };
-
-
 
 
 	function currenUser(data,userName){
@@ -112,15 +122,18 @@ export default function ShowResultForm () {
 		}
 		dialog.current.addEventListener('animationend', handleAnimationEnd)
 	}
-
+	console.log("mode just bfr",mode)
 	return (
 		<dialog ref={dialog} onClick={(e) => clickOutsideDialog(e)} id="ShowResultDialog" className='fixed top-1/2 w-5/6 sm:w-fit left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white text-slate-900 m-0 backdrop-blur-lg rounded-md py-9 px-8 md:px-11'>
 			<button className='absolute top-2 right-2 text-3xl hover:scale-110 transition-all' onClick={closeDialog} >
 				<IoCloseSharp />
 			</button>
 			<h2>Score Table</h2>
-			{mode == "Competitive" ?
-			(<div>
+			{ mode === null ?
+				(<div>Loading...</div>) :
+			mode === '"Competitive"' ?
+			(
+			<div>
 				<table style={{ borderCollapse: 'collapse', width: '100%', marginTop: '20px' }}>
 					<thead>
 						<tr>
@@ -136,11 +149,31 @@ export default function ShowResultForm () {
 						</tr> ))}
 					</tbody>
 				</table>
-			</div>)
+			</div>
+			)
 			: (
 			<div>
-			"Hello There"
-
+			{(currentUserScore.length != 0 )&&
+							( <>
+								<table style={{ borderCollapse: 'collapse', width: '100%', marginTop: '20px' }}>
+									<thead>
+									<tr>
+									<th style={{ border: '1px solid black', padding: '8px' }}>Name</th>
+									<th style={{ border: '1px solid black', padding: '8px' }}>Scores</th>
+									<th style={{ border: '1px solid black', padding: '8px' }}>Best Score</th>
+									<th style={{ border: '1px solid black', padding: '8px' }}>Improving</th>
+								</tr>
+							 </thead>
+						 <tbody>
+						 <tr>
+							 <td style={{ border: '1px solid black', padding: '8px' }}>{userName}</td>
+							 <td style={{ border: '1px solid black', padding: '8px' }}>{currentUserScore.join(', ')}</td>
+							 <td style={{ border: '1px solid black', padding: '8px' }}>{getBestScore(currentUserScore)}</td>
+							 <td style={{ border: '1px solid black', padding: '8px' }}>{isImproving(currentUserScore)}</td>
+					 	</tr>
+					</tbody>
+				</table> </> )
+			}
 			</div>)
 			}
 		</dialog >

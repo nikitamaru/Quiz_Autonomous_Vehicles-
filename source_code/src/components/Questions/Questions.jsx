@@ -46,11 +46,11 @@ export default function Questions () {
 			newScore = (score-1)/questions.length*100
 			scoreTable = localStorage.getItem('scoreTable')
 			userName = localStorage.getItem('userName')
-			console.log("scoretable",scoreTable,userName, scoreTable[userName])
+			// console.log("scoretable",scoreTable,userName, scoreTable[userName])
 			// scoreTable[userName]
 
 			scoreTable = updateScores(scoreTable, userName , newScore)
-			console.log("new scoretable",scoreTable)
+			// console.log("new scoretable",scoreTable)
 			localStorage.setItem('scoreTable',JSON.stringify(scoreTable))
 
 		}

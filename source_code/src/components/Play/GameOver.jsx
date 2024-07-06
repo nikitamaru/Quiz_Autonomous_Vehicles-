@@ -24,7 +24,6 @@ const canvasStyles = {
 export default function GameOver () {
 	const { queries, score, win } = useBoundStore(state => state)
 	const refAnimationInstance = useRef(null)
-
 	const getInstance = useCallback((instance) => {
 		refAnimationInstance.current = instance
 	}, [])

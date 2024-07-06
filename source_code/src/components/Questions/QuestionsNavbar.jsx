@@ -8,7 +8,7 @@ export default function QuestionsNavbar ({ changueCurrent }) {
 	}
 
 	function buttonBg (i) {
-		console.log(questions, i, questions[i])
+		// console.log(questions, i, questions[i])
 		let bg = 'bg-slate-600 hover:cursor-auto'
 		if (i + 1 === score) bg = 'bg-white text-blue-500'
 		if (questions[i].userAnswer === 1) bg = 'bg-green-500 !text-white'
