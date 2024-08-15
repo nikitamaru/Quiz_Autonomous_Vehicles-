@@ -2,7 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-<a href="https://quizi.vercel.app"><img src="./readme/header.webp" alt="Instagram" /></a>
+<a href="https://quizi.vercel.app"><img src="./readme/image.png" alt="Instagram" /></a>
 <br/>
 <br />
 
